@@ -32,6 +32,14 @@
   color: #525252;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Responsividade */
+
 @media (max-width: 1000px) {
   .introducao h1 {
     font-size: 3rem;
@@ -57,12 +65,5 @@
   .introducao {
     grid-template-columns: 1fr;
   }
-  .introducao img {
-    display: none;
-  }
-}
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+  /* Imagem continua visível */
 }
